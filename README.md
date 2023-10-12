@@ -1,4 +1,5 @@
 # Lenvantar_requisitos_bot
+Questoes que vocẽ faria para levantar requisitos de um novo BOT para atendimento ao usuário  
 
 Qual é o propósito principal do bot?
 
