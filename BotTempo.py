@@ -6,7 +6,7 @@ from telegram.ext import Updater, CommandHandler, CallbackContext
 BOT_TOKEN = '6560484151:AAHFqSp7c98OQKSVn2hft2b7L0zz7q3WsIU'
 # trocar a'YOUR_OPENWEATHERMAP_API_KEY' pela sua chave de API OpenWeatherMap
 WEATHER_API_KEY = '66f2805257505dd3dc9e4af9a7b29581'
-# digite um "oi" para esse comenado
+# digite um "/start" para esse comenado
 def start(update: Update, context: CallbackContext):
     update.message.reply_text("Bem-vindo ao seu bot de previsão do tempo! Use /tempo [cidade] para verificar o tempo.")
 
